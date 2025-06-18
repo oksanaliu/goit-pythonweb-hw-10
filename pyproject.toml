@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "goit-pythonweb-hw-08"
+version = "0.1.0"
+description = ""
+authors = ["Oksana Liuklian <you@icloud.com>"]
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+uvicorn = {extras = ["standard"], version = "^0.27.0"}
+sqlalchemy = "^2.0.0"
+psycopg2-binary = "^2.9.0"
+pydantic = {extras = ["email"], version = "^2.11.5"}
+asyncpg = "^0.30.0"
+greenlet = "^3.2.3"
+fastapi-mail = "^1.5.0"
+python-dotenv = "^1.1.0"
+python-jose = "^3.5.0"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+cloudinary = "^1.44.1"
+slowapi = "^0.1.9"
+email-validator = "^2.2.0"
+pydantic-settings = "^2.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
