@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.pid
+*.log
+docker-compose.override.yml
+
+# mypy, pyright, pylint
+.mypy_cache/
+.pyright/
+.pytest_cache/
+
+# Alembic
+alembic.ini
+*.sqlite3
+
+# Byte-compiled / cache
+*.pyo
+*.pyd
+*.pdb
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Node (якщо використовуєте frontend)
+node_modules/
+
+# Idea / PyCharm
+.idea/
